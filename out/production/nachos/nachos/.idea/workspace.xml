@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5891a18-34a8-4a9e-9d15-00dbb05a37aa" name="Changes" comment="nachos" />
+    <list default="true" id="f5891a18-34a8-4a9e-9d15-00dbb05a37aa" name="Changes" comment="nachos">
+      <change beforePath="$PROJECT_DIR$/out/production/nachos/nachos/threads/Alarm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nachos/nachos/threads/Alarm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nachos/nachos/threads/ThreadedKernel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nachos/nachos/threads/ThreadedKernel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threads/Alarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/threads/Alarm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threads/ThreadedKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/threads/ThreadedKernel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,16 +86,51 @@
       <workItem from="1714478393849" duration="2138000" />
       <workItem from="1714716458927" duration="500000" />
       <workItem from="1714716973625" duration="2000" />
-      <workItem from="1714717215979" duration="225000" />
+      <workItem from="1714717215979" duration="2637000" />
     </task>
+    <task id="LOCAL-00001" summary="nachos">
+      <created>1714723670524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714723670524</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nachos" />
     <option name="LAST_COMMIT_MESSAGE" value="nachos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/threads/Alarm.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/threads/Alarm.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

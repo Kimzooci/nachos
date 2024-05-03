@@ -6,6 +6,24 @@ import java.util.Comparator;
 import nachos.machine.*;
 
 public class Alarm {
+
+    public static void selfTest() {
+        alarmTest1();
+        // 추가적인 테스트 메서드 호출
+    }
+
+    public static void alarmTest1() {
+        int durations[] = {1000, 10*1000, 100*1000};
+        long t0, t1;
+
+        for (int d : durations) {
+            t0 = Machine.timer().getTime();
+            ThreadedKernel.alarm.waitUntil(d);
+            t1 = Machine.timer().getTime();
+            System.out.println("alarmTest1: waited for " + (t1 - t0) + " ticks");
+        }
+    }
+
     private PriorityBlockingQueue<WaitingThread> sleepQueue
             = new PriorityBlockingQueue<>(10, new WaitingThreadComparator());
 
@@ -34,18 +52,20 @@ public class Alarm {
     }
 
     public void waitUntil(long x) {
-        if (x <= 0) return;
+        if (x <= 0) return;  // x가 0 또는 음수인 경우 즉시 리턴
 
-        long wakeTime = Machine.timer().getTime() + x;
-        System.out.println(KThread.currentThread() + " waits until " + wakeTime);
+        boolean intStatus = Machine.interrupt().disable();  // 인터럽트 비활성화
 
+        long wakeTime = Machine.timer().getTime() + x;  // 쓰레드가 깨어날 시간 계산
         WaitingThread currentThread = new WaitingThread(KThread.currentThread(), wakeTime);
-        sleepQueue.add(currentThread);
 
-        boolean intStatus = Machine.interrupt().disable();
-        KThread.sleep();
-        Machine.interrupt().restore(intStatus);
+        sleepQueue.add(currentThread);  // 대기 중인 쓰레드 목록에 쓰레드 추가
+        KThread.sleep();  // 현재 쓰레드를 블록
+
+        Machine.interrupt().restore(intStatus);  // 인터럽트 원래 상태로 복원
     }
+
+
 
     private class WaitingThread {
         private KThread thread;

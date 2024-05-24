@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5891a18-34a8-4a9e-9d15-00dbb05a37aa" name="Changes" comment="nachos">
-      <change beforePath="$PROJECT_DIR$/out/production/nachos/nachos/threads/Alarm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nachos/nachos/threads/Alarm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/joinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/joinTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nachos/nachos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nachos/nachos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nachos/nachos/threads/KThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nachos/nachos/threads/KThread$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nachos/nachos/threads/KThread$PingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/nachos/nachos/threads/KThread.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/nachos/nachos/threads/ThreadedKernel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/nachos/nachos/threads/ThreadedKernel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads/Alarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/threads/Alarm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threads/KThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/threads/KThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/threads/ThreadedKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/threads/ThreadedKernel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,12 +24,24 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2ejccLm574DT5g6NwwP1uMszhYk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,7 +54,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;proj2&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/kimzooci/Desktop/OS/Nachos Projects/Nachos Projects/nachos-java/nachos&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -54,6 +72,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/proj1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/threads" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="nachos.threads" />
@@ -87,6 +108,12 @@
       <workItem from="1714716458927" duration="500000" />
       <workItem from="1714716973625" duration="2000" />
       <workItem from="1714717215979" duration="2637000" />
+      <workItem from="1714724577133" duration="3313000" />
+      <workItem from="1714855428617" duration="1069000" />
+      <workItem from="1715064180172" duration="400000" />
+      <workItem from="1715067610455" duration="3323000" />
+      <workItem from="1716070884287" duration="680000" />
+      <workItem from="1716558756236" duration="2569000" />
     </task>
     <task id="LOCAL-00001" summary="nachos">
       <created>1714723670524</created>
@@ -95,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714723670524</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nachos">
+      <created>1714741880734</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714741880734</updated>
+    </task>
+    <task id="LOCAL-00003" summary="nachos">
+      <created>1714741986179</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714741986179</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +162,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/threads/Alarm.java</url>
-          <line>33</line>
+          <line>51</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
